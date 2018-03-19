@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #000;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.appContainer{
+  width: 100%;
+}
+.nav-sider{
+  flex: 0 0 256px;
+  -webkit-flex:0 0 256px;
+  -o-flex:0 0 256px;
+  max-width: 256px;
+  min-width: 256px;
+  width: 256px;
+  background: #001529;
+}
+.logo{
+  height: 64px;
+  position: relative;
+  line-height: 64px;
+  padding-left: 14px;
+  /*-webkit-transition: all .3s;*/
+  /*-o-transition: all .3s;*/
+  /*transition: all .3s;*/
+  background: #002140;
+  overflow: hidden;
+}
+.logo img{
+    display: inline-block;
+    vertical-align: middle;
+    height: 45px;
+}
+.logo-name{
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    font-family: 'Myriad Pro','Helvetica Neue',Arial,Helvetica, sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+.header{
+  background: #fff;
+}
+.collapsidle-btn{
+  font-size: 20px;
+  line-height: 64px;
+  cursor: pointer;
+}
+.header-right{
+  float: right;
+  height:100%;
+  cursor: pointer;
+}
+.login-icon{
+  margin: 20px 0;
+}
+.footer{
+  text-align: center;
+}
+.main{
+  margin: 0 auto;
+}
